@@ -1,46 +1,48 @@
 # Loan Prediction System
 
-A Data Analysis Essentials project focused on exploring loan application data and identifying patterns that can support loan approval analysis.
+**Data Analysis Essentials — Review 1**
 
-## Project Overview
-
-The project performs exploratory data analysis (EDA) on a loan dataset. It studies applicant and loan-related attributes, handles data preparation, visualizes important patterns, and examines relationships between variables.
+An academic project focused on understanding loan-application data through data collection, preprocessing, exploratory data analysis (EDA), visualization, and identification of patterns related to loan approval.
 
 ## Objectives
 
-- Understand the structure and characteristics of the loan dataset.
-- Perform data cleaning and preprocessing.
-- Explore applicant and loan-related variables through EDA.
-- Identify relationships and important patterns in the data.
-- Study factors that may be associated with loan approval.
-- Present findings using clear visualizations.
+- Understand the loan dataset and its features.
+- Check data quality, missing values, duplicates, and data types.
+- Perform exploratory data analysis.
+- Study relationships between applicant and financial features.
+- Create visualizations to identify useful patterns.
+- Prepare the dataset for the next phase: loan prediction modeling.
 
 ## Dataset
 
-The project uses a loan application dataset containing applicant, financial, credit, and loan-related attributes.
+The dataset contains **4,269 loan application records and 13 columns**, including applicant details, income, loan information, CIBIL score, asset values, and loan status.
 
-> Dataset files and the analysis notebook can be added to the repository when the final project files are uploaded.
+The raw dataset is stored in:
 
-## Key Analysis Areas
+`data/LoanApproval.csv`
 
-- Missing-value and data-quality inspection
-- Categorical and numerical feature analysis
+## Analysis Performed
+
+- Dataset structure and data-type inspection
+- Missing-value and duplicate checks
+- Descriptive statistics
+- Loan-status distribution
+- Credit-group analysis
+- Self-employment analysis
 - Income and loan-amount analysis
-- Credit-history / credit-score group analysis
-- Correlation analysis
-- Distribution and comparison visualizations
-- Insights useful for understanding loan approval patterns
+- Correlation analysis and heatmap
+- Data visualizations using Matplotlib and Seaborn
 
-## Technologies Used
+## Technologies
 
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
-- Jupyter Notebook
+- Google Colab / Jupyter Notebook
 
-## Project Structure
+## Repository Structure
 
 ```text
 loan-prediction-system/
@@ -50,60 +52,53 @@ loan-prediction-system/
 ├── .gitignore
 │
 ├── data/
+│   ├── LoanApproval.csv
 │   └── README.md
 │
 ├── notebooks/
-│   └── Loan_Prediction_EDA.ipynb
+│   └── README.md
 │
 ├── docs/
 │   └── project_summary.md
 │
 └── presentation/
+    ├── Loan_Prediction_System_Review1.pptx
     └── README.md
 ```
 
-## Workflow
+## Project Workflow
 
 ```text
-Dataset
-   ↓
-Data Understanding
-   ↓
-Data Cleaning & Preprocessing
-   ↓
-Exploratory Data Analysis
-   ↓
-Visualization
-   ↓
-Correlation & Pattern Analysis
-   ↓
+Dataset Collection
+        ↓
+Data Preprocessing
+        ↓
+Exploratory Data Analysis (EDA)
+        ↓
+Visualization & Analysis
+        ↓
 Insights
-   ↓
-Conclusion
+        ↓
+Loan Prediction Model — Next Phase
 ```
 
-## How to Run
+## Next Phase
 
-1. Clone the repository.
-2. Install the required Python packages:
+The next phase will focus on feature selection, categorical encoding, feature scaling, machine-learning model development, and model evaluation for loan approval prediction.
 
-```bash
-pip install -r requirements.txt
-```
+## Team
 
-3. Open the Jupyter notebook from the `notebooks` folder.
-4. Place the dataset in the `data` folder if it is not already included.
-5. Run the notebook cells from top to bottom.
-
-## Current Status
-
-This repository is being prepared for the Review-1 project submission. The documentation and project structure are ready; the final notebook, dataset, and presentation files can be added as they are finalized.
+- **B. Rohith** — 25B11DS045
+- **Ali Raza Hasan** — 25B11DS016
+- **K. Anand Sai** — 25B11DS286
+- **Vishnu Vardhan** — 25B11DS212
 
 ## Academic Project
 
+**University:** Aditya University  
+**Course:** Data Analysis Essentials  
 **Project:** Loan Prediction System  
-**Focus:** Data Analysis and Exploratory Data Analysis  
-**Repository:** `rohitbandi0311-afk/loan-prediction-system`
+**Review:** Review 1 — Problem Statement, Dataset & Initial Progress
 
 ## License
 
