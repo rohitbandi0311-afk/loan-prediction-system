@@ -1,4 +1,13 @@
+# Streamlit Review-2 application
 streamlit==1.64.0
 pandas==3.0.6
 scikit-learn==1.9.1
 joblib==1.6.0
+
+# Review-1 exploratory data analysis and notebook support
+numpy
+matplotlib
+seaborn
+jupyter
+notebook
+openpyxl
